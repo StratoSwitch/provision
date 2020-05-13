@@ -1,0 +1,196 @@
+## IGNORE Some GRP templates have extra items or items in wrong place compared to original.  Just my notes on what to add/remove.
+
+Remove
+    <!-- # USB Console Log. 0 - No, 1 - Yes. Default is 0 (for GXP2140/2160/2170 only) -->
+    <!-- # Number: 0, 1 -->
+    <!-- # Mandatory -->
+    <P2922>0</P2922>
+
+    <!-- # Capture Location. 0 - Internal Storage, 1 - USB. Default is 0 (GXP2140/2160/GXP2170 only) -->
+    <!-- # Number: 0, 1. -->
+    <!-- # Mandatory -->
+    <P2999>0</P2999>
+ 
+
+    <!-- # USB Filename (GXP2140/2160/GXP2170 only) -->
+    <!-- # String -->
+    <P6008></P6008>
+
+
+    <!-- ############################################################################## -->
+    <!-- ##  Settings/Call History -->
+    <!-- ############################################################################## -->
+
+
+
+    <!-- # Register Failed. -->
+    <!-- # String -->
+    <P8307></P8307>
+
+
+    <!-- # Answered Call -->
+    <!-- # String -->
+    <P22171></P22171>
+
+    <!-- # Rejected Call -->
+    <!-- # String -->
+    <P8315></P8315>
+
+    <!-- # Forwarded Call -->
+    <!-- # String -->
+    <P22172></P22172>
+
+
+   <!-- # Open Unconditional Forward -->
+    <!-- # String -->
+    <P22164></P22164>
+
+    <!-- # Close Unconditional Forward -->
+    <!-- # String -->
+    <P22165></P22165>
+
+    <!-- # Open Busy Forward -->
+    <!-- # String -->
+    <P22166></P22166>
+
+    <!-- # Close Busy Forward -->
+    <!-- # String -->
+    <P22167></P22167>
+
+    <!-- # Open No Answer Forward -->
+    <!-- # String -->
+    <P22168></P22168>
+
+    <!-- # Close No Answer Forward -->
+    <!-- # String -->
+    <P22169></P22169>
+    <!-- # Mute Call -->
+    <!-- # String -->
+    <P8326></P8326>
+
+    <!-- # UnMute Call -->
+    <!-- # String -->
+    <P8327></P8327>
+
+    <!-- # IP Change -->
+    <!-- # String -->
+    <P22170></P22170>
+
+    <!-- # Auto-Provision Finish -->
+    <!-- # String -->
+    <P8332></P8332>
+
+
+
+
+
+Check/add
+    <!-- # HTTP/HTTPS User Name -->
+    <!-- # String -->
+    <P6713>{$http_auth_username}</P6713>
+
+    <!-- # HTTP/HTTPS Password -->
+    <!-- # String -->
+    <P6714>{$http_auth_password}</P6714>
+
+    <!-- # Phonebook XML Server Path -->
+    <!-- # This is a string of up to 256 characters that should contain a path to the XML file. It MUST be in the host/path format. -->
+    <!-- # For example: directory.grandstream.com/engineering -->
+    <!-- # String -->
+{if isset($grandstream_phonebook_download)}
+    <P331>{$grandstream_phonebook_xml_server_path}/{$mac}/</P331>
+{elseif isset($grandstream_phonebook_xml_server_path)}
+    <P331>{$grandstream_phonebook_xml_server_path}</P331>
+{else}
+    <P331></P331>
+{/if}
+
+    <!-- # Phonebook Key Function. 0 - Default, 1 - LDAP Search, 2 - Local Phonebook, 3 - Local Group, 4 - Broadsoft Phonebook -->
+    <!-- # Number: 0, 1, 2, 3, 4. -->
+    <!-- # Mandatory -->
+{if isset($contact_groups) ||  isset($contact_users) ||  isset($contact_extensions)}
+    <P1526>2</P1526>
+{else}
+    <P1526>0</P1526>
+{/if}
+
+ <!-- # Mute Key Functions While Idle. 0 - DND, 1 - Idle Mute, 2 - Disabled. Default is 0 -->
+    <!-- # Number: 0,1,2 -->
+    <!-- # Mandatory -->
+    <P1565>2</P1565>
+
+    <!-- # # Enable Auto Unmute. 0 - No, 1 - Yes. Default is 1 -->
+    <P8488>0</P8488>
+
+    <!-- # DND Overr
+
+
+Wrong place or invalid
+
+    <!-- # Idle Screen Settings -->
+    <!-- # Show Label Background. 0 - No, 1 - Yes. Default is 0 -->
+    <!-- # Number: 0, 1 -->
+    <!-- # Mandatory -->
+    <P8345>0</P8345>
+
+
+    <!-- # Show VPK Icon. 0 - No, 1 - Yes. Default is 0  -->
+    <!-- # Number: 0, 1 -->
+    <!-- # Mandatory -->
+    <P2936>0</P2936>
+
+    <!-- # Show VPK shared line display description (This only can be done with provisioning) -->
+    <!-- # Number: 0, 1. 0 - No, 1 - Yes. Default is 1 -->
+    <!-- # Mandatory -->
+    <P8484>1</P8484>
+
+
+    <!-- ############################################################################## -->
+    <!-- ##  Maintenance/Security Settings/Trusted CA Certificates   ## -->
+    <!-- ############################################################################## -->
+    <!-- # Load CA Certificates. 0 - Default Certificates, 1 - Custom Certificates, 2 - All Certificates -->
+    <!-- # Number: 0, 1, 2. Default is 0-->
+    <P8502>2</P8502>
+
+
+    <!-- # Trusted CA Certificate 2 -->
+    <!-- # String -->
+    <!-- # P8434 = -->
+
+    <!-- # Trusted CA Certificate 3 -->
+    <!-- # String -->
+    <!-- # P8435 = -->
+
+    <!-- # Trusted CA Certificate 4 -->
+    <!-- # String -->
+    <!-- # P8436 = -->
+
+    <!-- # Trusted CA Certificate 5 -->
+    <!-- # String -->
+    <!-- # P8437 = -->
+
+    <!-- # Trusted CA Certificate 6 -->
+    <!-- # String -->
+    <!-- # P8438 = -->
+
+
+
+
+
+
+    <!-- # Do not Escape '#' as 23% in SIP URL. 0 - No, 1 - Yes. Default is 0 -->
+    <!-- # Number: 0, 1 -->
+    <!-- # Mandatory -->
+    <P1406>0</P1406>
+
+    <!--   -->
+
+
+
+
+
+    <!-- # Enable diversion information display. 0 - No, 1 - Yes. Default is 1 -->
+    <!-- # Number: 0, 1 -->
+    <!-- # Mandatory -->
+    <P22237>1</P22237>
+
