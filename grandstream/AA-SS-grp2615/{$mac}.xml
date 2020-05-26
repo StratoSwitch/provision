@@ -5081,7 +5081,7 @@
     <!-- # Bluetooth Name. -->
     <!-- # String -->
     <!-- #P8364 = -->
-<P7800>1</P7800>
+
     <!-- ############################################################################## -->
     <!-- ## Network/OpenVPN Settings                     ## -->
     <!-- ############################################################################## -->
@@ -5229,6 +5229,99 @@
     <!-- # Trap Privacy Key -->
     <!-- # String -->
     <P21915></P21915>
+	  
+    <!-- ############################################################################## -->
+    <!-- ##  Network/WiFi Settings       ## -->
+    <!-- ############################################################################## -->
+    <!-- # Enable/Disable WiFi -->
+    <!-- # Number: 0 - No, 2 - Off & Hide Menu From LCD, 1 - Yes. Default is 0 -->
+         {if isset($grandstream_wifi_enable)
+	 <P7800>{$grandstream_wifi_enable}</P7800>
+         {/if}
+
+    <!-- Access Point 1-->
+    <!-- SSID -->
+    <!-- String -->
+	{if isset($grandstream_wifi_ssid_1)}
+	<P8403>{$grandstream_wifi_ssid_1}</P8403>
+	{/if}
+
+    <!-- Access Point 1-->
+    <!-- Password -->
+    <!-- String -->
+	{if isset($grandstream_wifi_password_1)}
+	<P8404>{$grandstream_wifi_password_1}</P8404>
+	{/if}
+
+    <!-- Access Point 1-->
+    <!-- Security Type -->
+    <!-- Number: 0 - None, 1 - WEP, 4 - WPA/WPA2 PSK, 5 - WPA/WPA2 EAP, 8 - Auto. Default is 4-->
+	{if isset($grandstream_wifi_security_1)}
+	<P8405>{$grandstream_wifi_security_1}</P8405>
+	{/if}
+
+    <!-- Access Point 1-->
+    <!-- EAP Method -->
+    <!-- Number: 0 - None, 25 - PEAP, 13 - TLS, 21 - TTLS, 52 - PWD, 18 - SIM, 23 - AKA, 50 - AKA'. Default is 0-->
+	{if isset($grandstream_wifi_eap_method_1)}
+	<P22020>{$grandstream_wifi_eap_method_1}</P22020>
+	{/if}
+
+    <!-- Access Point 1-->
+    <!-- EAP Identity -->
+    <!-- String -->
+	{if isset($grandstream_wifi_eap_identity_1)}
+	<P22021>{$grandstream_wifi_eap_identity_1}</P22021>
+	{/if}
+
+    <!-- Access Point 1-->
+    <!-- EAP Password -->
+    <!-- String -->
+	{if isset($grandstream_wifi_eap_password_1)}
+	<P22022>{$grandstream_wifi_eap_password_1}</P22022>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- SSID -->
+    <!-- String -->
+	{if isset($grandstream_wifi_ssid_10)}
+	<P8430>{$grandstream_wifi_ssid_10}</P8430>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- Password -->
+    <!-- String -->
+	{if isset($grandstream_wifi_password_10)}
+	<P8431>{$grandstream_wifi_password_10}</P8431>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- Security Type -->
+    <!-- Number: 0 - None, 1 - WEP, 4 - WPA/WPA2 PSK, 5 - WPA/WPA2 EAP, 8 - Auto. Default is 4-->
+	{if isset($grandstream_wifi_security_10)}
+	<P8432>{$grandstream_wifi_security_10}</P8432>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- EAP Method -->
+    <!-- Number: 0 - None, 25 - PEAP, 13 - TLS, 21 - TTLS, 52 - PWD, 18 - SIM, 23 - AKA, 50 - AKA'. Default is 0-->
+	{if isset($grandstream_wifi_eap_method_10)}
+	<P22159>{$grandstream_wifi_eap_method_10}</P22159>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- EAP Identity -->
+    <!-- String -->
+	{if isset($grandstream_wifi_eap_identity_10)}
+	<P22160>{$grandstream_wifi_eap_identity_10}</P22160>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- EAP Password -->
+    <!-- String -->
+	{if isset($grandstream_wifi_eap_password_10)}
+	<P22161>{$grandstream_wifi_eap_password_10}</P22161>
+	{/if}
 
     <!-- ############################################################################## -->
     <!-- ##  Maintenance/ Web Access     ## -->
@@ -5706,15 +5799,6 @@
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
     <P2914>0</P2914>
-
-    <!-- # Phonebook Key Function. 0 - Default, 1 - LDAP Search, 2 - Local Phonebook, 3 - Local Group, 4 - Broadsoft Phonebook -->
-    <!-- # Number: 0, 1, 2, 3, 4. -->
-    <!-- # Mandatory -->
-{if isset($contact_grandstream)}
-    <P1526>2</P1526>
-{else}
-    <P1526>0</P1526>
-{/if}
 
     <!-- # Default search mode. 0 - Quick match, 1 - Exact match. Default is 0 -->
     <!-- # Number: 0, 1. -->
