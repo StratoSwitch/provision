@@ -8104,8 +8104,7 @@
     <!-- # Wallpaper Source. 0 - Default, 1 - Download, 2-USB(for GXP2140/2160/2170 only), 3 - Uploaded, 4 - Color Background -->
     <!-- # Number: 0-4 -->
     <!-- # Mandatory -->
-    <P2916>1</P2916>
-
+   
     <!-- # Wallpaper Server Path -->
     <!-- # String  -->
 {if isset($grandstream2170_wallpaper_url)}
