@@ -3811,7 +3811,7 @@
     <P670></P670>
 
     <!-- #################################################################### -->
-    <!-- # Account 5 - GXP2160/2170 only -->
+    <!-- # Account 5 --->
     <!-- #################################################################### -->
     <!-- ########################################## -->
     <!-- # Account 5/General Settings -->
@@ -4780,9 +4780,7 @@
 
     <!-- # Vendor Class ID, DHCP option 60. Max length allowed is 64 characters -->
     <!-- # String -->
-    <!-- # For GXP2130, Default value is Grandstream GXP2130. -->
-    <!-- # P148 = Grandstream GXP2130 -->
-	<P148>GrandstreamGXP2615</P148>
+    <P148>GrandstreamGRP2615</P148>
     <!-- ########################################## -->
     <!-- # PPPoE -->
     <!-- ########################################## -->
@@ -6168,7 +6166,7 @@
     <P32000>-1</P32000>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32001>0</P32001>
@@ -6194,7 +6192,7 @@
     <P32005>-1</P32005>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32006>0</P32006>
@@ -6220,7 +6218,7 @@
     <P32010>-1</P32010>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32011>0</P32011>
@@ -6246,7 +6244,7 @@
     <P32015>-1</P32015>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32016>0</P32016>
@@ -6272,7 +6270,7 @@
     <P32020>-1</P32020>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32021>0</P32021>
@@ -6298,7 +6296,7 @@
     <P32025>-1</P32025>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32026>0</P32026>
@@ -6324,7 +6322,7 @@
     <P32030>-1</P32030>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32031>0</P32031>
@@ -6350,7 +6348,7 @@
     <P32035>-1</P32035>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32036>0</P32036>
@@ -6376,7 +6374,7 @@
     <P32040>-1</P32040>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32041>0</P32041>
@@ -6402,7 +6400,7 @@
     <P32045>-1</P32045>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32046>0</P32046>
@@ -6423,7 +6421,7 @@
     <!-- ##  Settings/Call Features -->
     <!-- ############################################################################## -->
     <!-- # Preferred Default Account.  -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P29612>0</P29612>
@@ -6649,11 +6647,6 @@
     <!-- # Mandatory -->
     <P6760>1</P6760>
 
-    <!-- # Saved Local Call Recording Location. 0 - Internal Storage 1 - USB. Default is 0. ~~for GXP2140/2160/2170 only -->
-    <!-- # Number: 0, 1 -->
-    <!-- # Mandatory -->
-    <P6761>1</P6761>
-
     <!-- # Enable IM Popup Timeout. 0 - No, 1 - Yes. Default is 1 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
@@ -6678,12 +6671,6 @@
     <!-- # String -->
     <P8358></P8358>
 
-    <!-- # Auto Provision List Starting Point. 0 - Extension Boards, 1 - VPK, 2 - MPK. -->
-    <!-- # For GXP2140/GXP2170~~Number: 0, 1. Default is 0 -->
-    <!-- # For GXP2130/GXP2160~~Number: 1, 2. Default is 1 -->
-    <!-- # Mandatory -->
-    <!-- #P8349 = 0 -->
-    <!--   -->
     <!-- # Hide BLF Remote Status. 0 - No, 1 - Yes. Default is 0 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
@@ -7210,7 +7197,7 @@
     <P351>1</P351>
 
     <!-- # Wallpaper Settings -->
-    <!-- # Wallpaper Source. 0 - Default, 1 - Download, 2-USB(for GXP2140/2160/2170 only), 3 - Uploaded, 4 - Color Background -->
+    <!-- # Wallpaper Source. 0 - Default, 1 - Download, 2-USB, 3 - Uploaded, 4 - Color Background -->
     <!-- # Number: 0-4 -->
     <!-- # Mandatory -->
     <P2916>1</P2916>
@@ -7238,7 +7225,7 @@
     <P2918>2</P2918>
 {/if}
 
-    <!-- # Screensaver Source.  0 - Default, 1 - USB, 2 - Download. Default is 0. ~~for GXP2140/2160/2170 only -->
+    <!-- # Screensaver Source.  0 - Default, 1 - USB, 2 - Download. Default is 0.  -->
     <!-- # Number: 0, 1, 2 -->
     <!-- # Mandatory -->
 {if isset($grandstream_screensaver_source)}
@@ -7461,7 +7448,7 @@
     <!-- ###################################################################################### -->
 
     <!-- ###################################################################################### -->
-    <!-- ############################ For GXP2130       ########################################### -->
+    <!-- ############################ For GRP2615       ########################################### -->
     <!-- ###################################################################################### -->
     <!-- # VPK 1~~ fixed VPK  -->
     <!-- ###################################################################################### -->
@@ -7482,16 +7469,9 @@
     <!-- # P1364 = 0 -->
 
     <!-- Set $fixed_keys variable below and the rest should work -->
-    <!-- detect with $template == grandstream/gxp21xx  2130=3fixed 2140=4fixed 2160=6fixed 2170=12fixed 2135=8fixed -->
+ 
 
 {$fixed_keys=10}
-{if $template == "grandstream/gxp2130"}{$fixed_keys=3}{/if}
-{if $template == "grandstream/gxp2140"}{$fixed_keys=4}{/if}
-{if $template == "grandstream/gxp2160"}{$fixed_keys=6}{/if}
-{if $template == "grandstream/gxp2170"}{$fixed_keys=12}{/if}
-{if $template == "grandstream/gxp2135"}{$fixed_keys=8}{/if}
-{if $template == "grandstream/AA-SS-gxp2135"}{$fixed_keys=8}{/if}
-{if $template == "grandstream/AA-SS-gxp2170"}{$fixed_keys=12}{/if}
 
 <!-- Detected {$template} with {$fixed_keys} fixed keys -->
 {$start_id=1363}
@@ -7546,701 +7526,6 @@
 {/if}
 
 {/for}
- 
-
-    <!-- ###################################################################################### -->
-    <!-- ## Programmable Keys/Physical Multi-Purpose Keys - GXP2130/2160 only -->
-    <!-- ###################################################################################### -->
-    <!-- # MPK 1- GXP2130/2160 only -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P323>-1</P323> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- <P301>0</P301> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- <P302></P302> -->
-
-    <!-- # User ID.  Max length allowed is 64 characters. -->
-    <!-- # String -->
-    <!-- <P303></P303> -->
-
-{assign var=key_types value=["none"=>-1,"speed dial"=>0, "blf"=>1, "presence watcher"=>2, "eventlist blf"=>3,"speed dial active"=>4,"dial dtmf"=>5,"voicemail"=>6,"call return"=>7,"transfer"=>8,"call park"=>9,"intercom"=>10,"ldap search"=>11,"conference"=>12,"multicast paging"=>13,"record"=>14,"call log"=>15,"monitored call park"=>16,"menu"=>17]}
-{$start_id=323}
-{for $mem=1 to 7}
-{$pid=$mem*3-3}
-{if isset($keys.memory.$mem.device_key_category) && isset($keys.memory.$mem.device_key_type) && $keys.memory.$mem.device_key_type|in_array:$key_types}
-<!-- # Key Mode. -->
-<!-- # Number: -1 to 20 -->
-<!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-<!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-<!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-<!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-<!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-<P{$start_id+$mem-1}>{$key_types[$keys.memory.$mem.device_key_type]}</P{$start_id+$mem-1}>
-<!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-<!-- # Number: 0, 1, 2, 3, 4, 5 -->
-<P{$start_id+$pid-22}>{$keys.memory.$mem.device_key_line}</P{$start_id+$pid-22}>
-<!-- # Name. Max length allowed is 128 characters. -->
-<!-- # String -->
-<P{$start_id+$pid-21}>{$keys.memory.$mem.device_key_label}</P{$start_id+$pid-21}>
-<!-- # User ID.  Max length allowed is 64 characters. -->
-<!-- # String -->
-<P{$start_id+$pid-20}>{$keys.memory.$mem.device_key_value}</P{$start_id+$pid-20}>
-{else}
-<P{$start_id+$mem-1}>-1</P{$start_id+$mem-1}>
-<P{$start_id+$pid-22}>0</P{$start_id+$pid-22}>
-<P{$start_id+$pid-21}></P{$start_id+$pid-21}>
-<P{$start_id+$pid-20}></P{$start_id+$pid-20}>
-{/if}
-
-{/for}
-
-{$start_id=353}
-{for $mem=8 to 18}
-{$pid=($mem-7)*4-4}
-{if isset($keys.memory.$mem.device_key_category) && isset($keys.memory.$mem.device_key_type) && $keys.line.$line.device_key_type|in_array:$key_types}
-<P{$start_id+$pid}>{$key_types[$keys.memory.$mem.device_key_type]}</P{$start_id+$pid}>
-<P{$start_id+$pid+1}>{$keys.memory.$mem.device_key_line}</P{$start_id+$pid+1}>
-<P{$start_id+$pid+2}>{$keys.memory.$mem.device_key_label}</P{$start_id+$pid+2}>
-<P{$start_id+$pid+3}>{$keys.memory.$mem.device_key_value}</P{$start_id+$pid+3}>
-{else}
-<P{$start_id+$pid}>-1</P{$start_id+$pid}>
-<P{$start_id+$pid+1}>0</P{$start_id+$pid+1}>
-<P{$start_id+$pid+2}></P{$start_id+$pid+2}>
-<P{$start_id+$pid+3}></P{$start_id+$pid+3}>
-{/if}
-
-{/for}
-
-
-{$start_id=1440}
-{for $mem=19 to 24}
-{$pid=($mem-18)*4-4}
-{if isset($keys.memory.$mem.device_key_category) && isset($keys.memory.$mem.device_key_type) && $keys.line.$line.device_key_type|in_array:$key_types}
-<P{$start_id+$pid}>{$key_types[$keys.memory.$mem.device_key_type]}</P{$start_id+$pid}>
-<P{$start_id+$pid+1}>{$keys.memory.$mem.device_key_line}</P{$start_id+$pid+1}>
-<P{$start_id+$pid+2}>{$keys.memory.$mem.device_key_label}</P{$start_id+$pid+2}>
-<P{$start_id+$pid+3}>{$keys.memory.$mem.device_key_value}</P{$start_id+$pid+3}>
-{else}
-<P{$start_id+$pid}>-1</P{$start_id+$pid}>
-<P{$start_id+$pid+1}>0</P{$start_id+$pid+1}>
-<P{$start_id+$pid+2}></P{$start_id+$pid+2}>
-<P{$start_id+$pid+3}></P{$start_id+$pid+3}>
-{/if}
-
-{/for}
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 2- GXP2130/2160 only -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P324>-1</P324> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P304>0</P304> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P305></P305> -->
-
-    <!-- # User ID. Max length allowed is 64 characters. -->
-    <!-- # String -->
-    <!-- # <P306></P306> -->
-
-    <!-- ######################################################################################  -->
-    <!-- # MPK 3- GXP2130/2160 only -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P325>-1</P325> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P307>0</P307> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P308></P308> -->
-
-    <!-- # User ID. Max length allowed is 64 characters. -->
-    <!-- # String -->
-    <!-- # <P309></P309> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 4- GXP2130/2160 only -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P326>-1</P326> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P310>0</P310> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P311></P311> -->
-
-    <!-- # User ID. Max length allowed is 64 characters. -->
-    <!-- # String -->
-    <!-- # <P312></P312> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 5- GXP2130/2160 only -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P327>-1</P327> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P313>0</P313> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P314></P314> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P315></P315> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 6- GXP2130/2160 only -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P328>-1</P328> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P316>0</P316> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P317></P317> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P318></P318> -->
-
-    <!-- ######################################################################################  -->
-    <!-- # MPK 7- GXP2130/2160 only -->
-    <!-- ######################################################################################  -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P329>-1</P329> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P319>0</P319> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P320></P320> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P321></P321> -->
-
-    <!-- ######################################################################################  -->
-    <!-- # MPK 8- GXP2130/2160 only -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P353>-1</P353> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P354>0</P354> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P355></P355> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P356></P356> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 9 - MPK 24 - GXP2160 only -->
-    <!-- ######################################################################################  -->
-    <!-- # MPK 9 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P357>-1</P357> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P358>0</P358> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P359></P359> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P360></P360> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 10 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P361>-1</P361> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P362>0</P362> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P363></P363> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P364></P364> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 11 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P365>-1</P365> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P366>0</P366> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P367></P367> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P368></P368> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 12 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P369>-1</P369> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P370>0</P370> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P371></P371> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P372></P372> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 13 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P373>-1</P373> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P374>0</P374> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P375></P375> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P376></P376> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 14 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P377>-1</P377> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P378>0</P378> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P379></P379> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P380></P380> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 15 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P381>-1</P381> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P382>0</P382> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String  -->
-    <!-- # <P383></P383> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P384></P384> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 16 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P385>-1</P385> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P386>0</P386> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P387></P387> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P388></P388> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 17 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P389>-1</P389> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P390>0</P390> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P391></P391> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P392></P392> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 18 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P393>-1</P393> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P394>0</P394> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P395></P395> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P396></P396> -->
-
-    <!-- ######################################################################################  -->
-    <!-- # MPK 19 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P1440>-1</P1440> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P1441>0</P1441> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P1442></P1442> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P1443></P1443> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 20 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P1444>-1</P1444> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P1445>0</P1445> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P1446></P1446> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P1447></P1447> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 21 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P1448>-1</P1448> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P1449>0</P1449> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P1450></P1450> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P1451></P1451> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 22 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P1452>-1</P1452> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P1453>0</P1453> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P1454></P1454> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P1455></P1455> -->
-
-    <!-- ######################################################################################  -->
-    <!-- # MPK 23 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P1456>-1</P1456> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P1457>0</P1457> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P1458></P1458> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P1459></P1459> -->
-
-    <!-- ###################################################################################### -->
-    <!-- # MPK 24 -->
-    <!-- ###################################################################################### -->
-    <!-- # Key Mode. -->
-    <!-- # Number: -1 ~~ 20 -->
-    <!-- # -1 - None, 0 - Speed Dial, 1 - BLF, 2 - Presence Watcher -->
-    <!-- # 3 - Eventlist BLF, 4 - Speed Dial via active account, 5 - DialDTMF -->
-    <!-- # 6 - Voice Mail, 7 - Call Return, 8 - Transfer, 9 - Call Park, 10 - Intercom -->
-    <!-- # 11 - LDAP Search, 12 - Conference, 13 - Multicast Paging, 14 - Record, 15 - Call Log -->
-    <!-- # 16 - Monitored Call Park, 17 - Menu 18- XML Application,19 - Information, 20 - Message -->
-    <!-- # Mandatory -->
-    <!-- # <P1460>-1</P1460> -->
-
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5, 5 - Account 6 -->
-    <!-- # Number: 0, 1, 2, 3, 4, 5 -->
-    <!-- # Mandatory -->
-    <!-- # <P1461>0</P1461> -->
-
-    <!-- # Name. Max length allowed is 128 characters. -->
-    <!-- # String -->
-    <!-- # <P1462></P1462> -->
-
-    <!-- # User ID. Max length allowed is 64 character -->
-    <!-- # String -->
-    <!-- # <P1463></P1463> -->
 
     <!-- ############################################################################## -->
     <!-- ##  Settings/Programmable Keys / Softkeys Settings -->
@@ -8345,7 +7630,7 @@
 
     <!-- # <P2987>0</P2987>  -->
 
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4 (GXP 2140/2160 only), 4 - Account 5 (GXP2160 only), 5 - Account 6 (GXP2160 only) -->
+    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4 , 4 - Account 5 -->
     <!-- # Number: 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
     <!-- # <P2988>0</P2988>  -->
@@ -8368,7 +7653,7 @@
     <!-- # Mandatory -->
     <P2991>0</P2991>
 
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4 (GXP 2140/2160 only), 4 - Account 5 (GXP2160 only), 5 - Account 6 (GXP2160 only) -->
+    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5 -->
     <!-- # Number: 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
     <P2992>0</P2992>
@@ -8382,7 +7667,7 @@
     <!-- # P2994 = -->
 
     <!-- ###################################################################################### -->
-    <!-- # Softkey 3 - GXP2140/2160/2170 only -->
+    <!-- # Softkey 3 -->
     <!-- ###################################################################################### -->
     <!-- # Key Mode. -->
     <!-- # 0 - Default, 10 - Speed Dial, 14 - Speed Dial via active account, 16 - Voicemail,  -->
@@ -8391,7 +7676,7 @@
     <!-- # Mandatory -->
     <P2995>0</P2995>
 
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4 (GXP 2140/2160 only), 4 - Account 5 (GXP2160 only), 5 - Account 6 (GXP2160 only) -->
+    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4, 4 - Account 5 -->
     <!-- # Number: 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
     <P2996>0</P2996>
@@ -8444,7 +7729,7 @@
     <!-- # P8480 = -->
 
     <!-- ###################################################################################### -->
-    <!-- # Softkey 3 - GXP2140/2160/2170 only -->
+    <!-- # Softkey 3 -->
     <!-- ###################################################################################### -->
     <!-- # Key Mode. -->
     <!-- # 0 - Default, 10 - Speed Dial, 14 - Speed Dial via active account, 15 - Dial DTMF, 16 - Voicemail,  -->
@@ -8462,7 +7747,7 @@
     <!-- # P8483 =  -->
 
     <!-- ######################################################################## -->
-    <!-- ##          Settings/Extension Boards - GXP2140/GXP2170 only  -->
+    <!-- ##          Settings/Extension Boards -  -->
     <!-- ######################################################################## -->
 
     <!-- ######################################################################## -->
