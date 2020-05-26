@@ -2881,9 +2881,7 @@
 
     <!-- # Vendor Class ID, DHCP option 60. Max length allowed is 64 characters -->
     <!-- # String -->
-    <!-- # For GXP2130, Default value is Grandstream GXP2130. -->
-    <!-- # P148 = Grandstream GXP2130 -->
-	<P148>GrandstreamGRP2613</P148>
+    <P148>GrandstreamGRP2613</P148>
  
     <!-- ############################################################################## -->
     <!-- ## Network/Advanced Settings                                                ## -->
@@ -3974,7 +3972,7 @@
     <P32000>-1</P32000>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32001>0</P32001>
@@ -4000,7 +3998,7 @@
     <P32005>-1</P32005>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32006>0</P32006>
@@ -4026,7 +4024,7 @@
     <P32010>-1</P32010>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32011>0</P32011>
@@ -4052,7 +4050,7 @@
     <P32015>-1</P32015>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32016>0</P32016>
@@ -4078,7 +4076,7 @@
     <P32020>-1</P32020>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32021>0</P32021>
@@ -4104,7 +4102,7 @@
     <P32025>-1</P32025>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32026>0</P32026>
@@ -4130,7 +4128,7 @@
     <P32030>-1</P32030>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32031>0</P32031>
@@ -4156,7 +4154,7 @@
     <P32035>-1</P32035>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32036>0</P32036>
@@ -4182,7 +4180,7 @@
     <P32040>-1</P32040>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32041>0</P32041>
@@ -4208,7 +4206,7 @@
     <P32045>-1</P32045>
 
     <!-- # Account -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P32046>0</P32046>
@@ -4229,7 +4227,7 @@
     <!-- ##  Settings/Call Features -->
     <!-- ############################################################################## -->
     <!-- # Preferred Default Account.  -->
-    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4(For GXP2140/2160/2170 only), 4 - Account 5(For GXP2160/2170 only), 5 - Account 6(For GXP2160/2170 only).  -->
+    <!-- # 0 - Account 1, 1 - Account 2, 2 - Account 3.  -->
     <!-- # Number: 0, 1, 2, 3, 4, 5. Default is 0. -->
     <!-- # Mandatory -->
     <P29612>0</P29612>
@@ -4977,7 +4975,7 @@
     <P2918>1</P2918>
 {/if}
 
-    <!-- # Screensaver Source.  0 - Default, 1 - USB, 2 - Download. Default is 0. ~~for GXP2140/2160/2170 only -->
+    <!-- # Screensaver Source.  0 - Default, 1 - USB, 2 - Download. Default is 0.  -->
     <!-- # Number: 0, 1, 2 -->
     <!-- # Mandatory -->
 {if isset($grandstream_screensaver_source)}
@@ -5377,7 +5375,7 @@
 
     <!-- # <P2987>0</P2987>  -->
 
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4 (GXP 2140/2160 only), 4 - Account 5 (GXP2160 only), 5 - Account 6 (GXP2160 only) -->
+    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3 -->
     <!-- # Number: 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
     <!-- # <P2988>0</P2988>  -->
@@ -5400,7 +5398,7 @@
     <!-- # Mandatory -->
     <P2991>0</P2991>
 
-    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3, 3 - Account 4 (GXP 2140/2160 only), 4 - Account 5 (GXP2160 only), 5 - Account 6 (GXP2160 only) -->
+    <!-- # Account. 0 - Account 1, 1 - Account 2, 2 - Account 3 -->
     <!-- # Number: 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
     <P2992>0</P2992>
