@@ -2348,7 +2348,9 @@
     <!-- ############################################################################## -->
     <!-- # Enable/Disable WiFi -->
     <!-- # Number: 0 - No, 2 - Off & Hide Menu From LCD, 1 - Yes. Default is 0 -->
-    <P7800>1</P7800>
+    {if isset($grandstream_wifi_enable)
+    <P7800>{$grandstream_wifi_enable}</P7800>
+    {/if}
 
     <!-- Access Point 1-->
     <!-- SSID -->
