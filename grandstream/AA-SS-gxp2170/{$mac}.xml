@@ -8407,7 +8407,7 @@
     <!-- Set $fixed_keys variable below and the rest should work -->
     <!-- detect with $template == grandstream/gxp21xx  2130=3fixed 2140=4fixed 2160=6fixed 2170=12fixed 2135=8fixed -->
 
-{$fixed_keys=4}
+{$fixed_keys=12}
 {if $template == "grandstream/gxp2130"}{$fixed_keys=3}{/if}
 {if $template == "grandstream/gxp2140"}{$fixed_keys=4}{/if}
 {if $template == "grandstream/gxp2160"}{$fixed_keys=6}{/if}
