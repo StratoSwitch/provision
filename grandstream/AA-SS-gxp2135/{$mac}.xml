@@ -6525,19 +6525,15 @@
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
     <P6007>0</P6007>
-
-    <!-- # USB Filename (GXP2140/2160/GXP2170 only) -->
-    <!-- # String -->
-    <P6008></P6008>
-
+   
     <!-- ############################################################################## -->
     <!-- ##  Phonebook/Phonebook Management -->
     <!-- ############################################################################## -->
     <!-- # Enable Phonebook XML Download. # 0 - Disabled, 1 - Enabled, use HTTP, 2 - Enabled, use TFTP, 3 - Enabled, use HTTPS. Default is 0 -->
     <!-- # Number: 0, 1, 2, 3 -->
     <!-- # Mandatory -->
-{if isset($contact_grandstream)}
-    <P330>1</P330>
+{if isset($grandstream_phonebook_download)}
+    <P330>{$grandstream_phonebook_download}</P330>
 {else}
     <P330>0</P330>
 {/if}
@@ -6545,18 +6541,18 @@
 
     <!-- # HTTP/HTTPS User Name -->
     <!-- # String -->
-    <P6713></P6713>
+    <P6713>{$http_auth_username}</P6713>
 
     <!-- # HTTP/HTTPS Password -->
     <!-- # String -->
-    <P6714></P6714>
+    <P6714>{$http_auth_password}</P6714>
 
     <!-- # Phonebook XML Server Path -->
     <!-- # This is a string of up to 256 characters that should contain a path to the XML file. It MUST be in the host/path format. -->
     <!-- # For example: directory.grandstream.com/engineering -->
     <!-- # String -->
-{if isset($contact_grandstream)}
-    <P331>{$grandstream_phonebook_xml_server_path}{$mac}/</P331>
+{if isset($grandstream_phonebook_download)}
+    <P331>{$grandstream_phonebook_xml_server_path}/{$mac}/</P331>
 {elseif isset($grandstream_phonebook_xml_server_path)}
     <P331>{$grandstream_phonebook_xml_server_path}</P331>
 {else}
@@ -6590,12 +6586,11 @@
     <!-- # Phonebook Key Function. 0 - Default, 1 - LDAP Search, 2 - Local Phonebook, 3 - Local Group, 4 - Broadsoft Phonebook -->
     <!-- # Number: 0, 1, 2, 3, 4. -->
     <!-- # Mandatory -->
-{if isset($contact_grandstream)}
+{if isset($contact_groups) ||  isset($contact_users) ||  isset($contact_extensions)}
     <P1526>2</P1526>
 {else}
     <P1526>0</P1526>
 {/if}
-
     <!-- # Default search mode. 0 - Quick match, 1 - Exact match. Default is 0 -->
     <!-- # Number: 0, 1. -->
     <!-- # Mandatory -->
