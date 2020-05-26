@@ -6178,6 +6178,99 @@
     <!-- # Trap Privacy Key -->
     <!-- # String -->
     <P21915></P21915>
+    <!-- ############################################################################## -->
+    <!-- ##  Network/WiFi Settings       ## -->
+    <!-- ############################################################################## -->
+    <!-- # Enable/Disable WiFi -->
+    <!-- # Number: 0 - No, 2 - Off & Hide Menu From LCD, 1 - Yes. Default is 0 -->
+         {if isset($grandstream_wifi_enable)
+	 <P7800>{$grandstream_wifi_enable}</P7800>
+         {/if}
+
+    <!-- Access Point 1-->
+    <!-- SSID -->
+    <!-- String -->
+	{if isset($grandstream_wifi_ssid_1)}
+	<P8403>{$grandstream_wifi_ssid_1}</P8403>
+	{/if}
+
+    <!-- Access Point 1-->
+    <!-- Password -->
+    <!-- String -->
+	{if isset($grandstream_wifi_password_1)}
+	<P8404>{$grandstream_wifi_password_1}</P8404>
+	{/if}
+
+    <!-- Access Point 1-->
+    <!-- Security Type -->
+    <!-- Number: 0 - None, 1 - WEP, 4 - WPA/WPA2 PSK, 5 - WPA/WPA2 EAP, 8 - Auto. Default is 4-->
+	{if isset($grandstream_wifi_security_1)}
+	<P8405>{$grandstream_wifi_security_1}</P8405>
+	{/if}
+
+    <!-- Access Point 1-->
+    <!-- EAP Method -->
+    <!-- Number: 0 - None, 25 - PEAP, 13 - TLS, 21 - TTLS, 52 - PWD, 18 - SIM, 23 - AKA, 50 - AKA'. Default is 0-->
+	{if isset($grandstream_wifi_eap_method_1)}
+	<P22020>{$grandstream_wifi_eap_method_1}</P22020>
+	{/if}
+
+    <!-- Access Point 1-->
+    <!-- EAP Identity -->
+    <!-- String -->
+	{if isset($grandstream_wifi_eap_identity_1)}
+	<P22021>{$grandstream_wifi_eap_identity_1}</P22021>
+	{/if}
+
+    <!-- Access Point 1-->
+    <!-- EAP Password -->
+    <!-- String -->
+	{if isset($grandstream_wifi_eap_password_1)}
+	<P22022>{$grandstream_wifi_eap_password_1}</P22022>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- SSID -->
+    <!-- String -->
+	{if isset($grandstream_wifi_ssid_10)}
+	<P8430>{$grandstream_wifi_ssid_10}</P8430>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- Password -->
+    <!-- String -->
+	{if isset($grandstream_wifi_password_10)}
+	<P8431>{$grandstream_wifi_password_10}</P8431>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- Security Type -->
+    <!-- Number: 0 - None, 1 - WEP, 4 - WPA/WPA2 PSK, 5 - WPA/WPA2 EAP, 8 - Auto. Default is 4-->
+	{if isset($grandstream_wifi_security_10)}
+	<P8432>{$grandstream_wifi_security_10}</P8432>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- EAP Method -->
+    <!-- Number: 0 - None, 25 - PEAP, 13 - TLS, 21 - TTLS, 52 - PWD, 18 - SIM, 23 - AKA, 50 - AKA'. Default is 0-->
+	{if isset($grandstream_wifi_eap_method_10)}
+	<P22159>{$grandstream_wifi_eap_method_10}</P22159>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- EAP Identity -->
+    <!-- String -->
+	{if isset($grandstream_wifi_eap_identity_10)}
+	<P22160>{$grandstream_wifi_eap_identity_10}</P22160>
+	{/if}
+
+    <!-- Access Point 10-->
+    <!-- EAP Password -->
+    <!-- String -->
+	{if isset($grandstream_wifi_eap_password_10)}
+	<P22161>{$grandstream_wifi_eap_password_10}</P22161>
+	{/if}
+
 
     <!-- ############################################################################## -->
     <!-- ##  Maintenance/ Web Access     ## -->
@@ -7541,7 +7634,7 @@
     <!-- # Auto Provision List Starting Point. 0 - Extension Boards, 1 - VPK, 2 - MPK. -->
     <!-- # Mandatory -->
     <!-- #P8349 = 0 -->
-    <!--   -->
+    <P8349>0</P8349>
     <!-- # Hide BLF Remote Status. 0 - No, 1 - Yes. Default is 0 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
@@ -8140,7 +8233,21 @@
 {else}
     <P935>0</P935>
 {/if}
-
+    <!-- ############################################################################## -->
+    <!-- ##  Settings/Preferences / MPK LCD Settings -->
+    <!-- ############################################################################## -->
+    <!-- # MPK LCD Display Order. 0 - Sequential, 1 - Alternating. Default is 0 -->
+    <!-- # Number: 0,1  -->
+    <P8456>0</P8456>
+    
+    <!-- # Display Contact on MPK LCD. 0 - No, 1 - Yes. Default is 0 -->
+    <!-- # Number: 0,1  -->
+    <P8461>0</P8461>
+	  
+    <!-- # Wallpaper Source for MPK LCD. 0 - Default, 3 - Uploaded. Default is 0 -->
+    <!-- # Number: 0,1  -->
+    <P2938>0</P2938>
+	  
     <!-- ############################################################################## -->
     <!-- ##  Settings/Preferences / LED Control -->
     <!-- ############################################################################## -->
