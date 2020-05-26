@@ -7792,8 +7792,6 @@
     <!-- # String -->
     <!-- <P23003></P23003> -->
 
-
-
 {assign var=key_types value=["none"=>-1,"speed dial"=>0, "blf"=>1, "presence watcher"=>2, "eventlist blf"=>3,"speed dial active"=>4,"dial dtmf"=>5,"voicemail"=>6,"call return"=>7,"transfer"=>8,"call park"=>9,"intercom"=>10,"ldap search"=>11,"multicast paging"=>13,"record"=>14,"call log"=>15,"monitored call park"=>16,"menu"=>17]}
 {$start_id=23000}
 {for $exp=1 to 160}
@@ -7811,7 +7809,6 @@
 {/if}
 
 {/for}
-{
 
   </config>
 </gs_provision>
