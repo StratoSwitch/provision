@@ -415,7 +415,7 @@
     <!-- # Broadsoft Executive Assistant. 0 - Disabled, 1 - Enabled. Default is 0 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
-    <P2364>0 </P2364>
+    <P2364>0</P2364>
 
     <!-- # Feature Key Synchronization. 0 - Disabled, 1 - Enabled. Default is 0 -->
     <!-- # Number: 0, 1 -->
